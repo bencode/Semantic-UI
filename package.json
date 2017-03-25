@@ -1,5 +1,5 @@
 {
-  "name": "semantic-ui",
+  "name": "semantic-ui-dist",
   "version": "2.2.9",
   "title": "Semantic UI",
   "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
@@ -16,6 +16,9 @@
   "scripts": {
     "install": "gulp install"
   },
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {
     "better-console": "*",
     "del": "*",
